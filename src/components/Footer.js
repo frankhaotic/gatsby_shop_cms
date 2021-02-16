@@ -1,10 +1,13 @@
 import React from "react"
 
+// Custom Import
+import styles from "./footer.module.scss"
+
 const Footer = () => {
   return (
-    <div>
-      <h1>Hello from the footer</h1>
-    </div>
+    <>
+      <h1 className={styles.heading__1}>Hello from the footer</h1>
+    </>
   )
 }
 

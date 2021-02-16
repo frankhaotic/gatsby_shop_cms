@@ -1,12 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
 
+// Custom Imports
+import styles from "./navbar.module.scss"
+
 const Navbar = () => {
   return (
-    <div>
+    <>
       <ul>
         <li>
-          <Link to="/">index</Link>
+          <Link className={styles.link} to="/">
+            index
+          </Link>
         </li>
         <li>
           <Link to="/blog">blog</Link>
@@ -15,7 +20,7 @@ const Navbar = () => {
           <Link to="/products">products</Link>
         </li>
       </ul>
-    </div>
+    </>
   )
 }
 
