@@ -1,7 +1,14 @@
 import React from "react"
 
+// Custom Components
+import Layout from "../components/Layout"
+
 const index = () => {
-  return <div>Hello World!!!!</div>
+  return (
+    <Layout>
+      <div>Hello World</div>
+    </Layout>
+  )
 }
 
 export default index
