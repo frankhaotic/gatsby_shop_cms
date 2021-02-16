@@ -6,5 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Shop CMS",
+    author: "Frankie",
+  },
   plugins: ["gatsby-plugin-sass"],
 }
